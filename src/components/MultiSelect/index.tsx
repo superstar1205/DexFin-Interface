@@ -93,8 +93,6 @@ const customStyles = {
 	})
 };
 
-const height = 35;
-
 const ReactSelect = ({ options, style, ...props }: IReactSelect) => (
 	<Wrapper style={style}>
 		<Select

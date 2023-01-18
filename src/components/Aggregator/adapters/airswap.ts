@@ -61,7 +61,7 @@ export async function getQuote(chain: string, from: string, to: string, amount: 
 				})
 					.then((r) => r.json())
 					.then((r) => (r.error === undefined ? r.result : null))
-					.catch((e) => null)
+					.catch(() => null)
 			)
 		)
 	).filter((r) => r !== null);

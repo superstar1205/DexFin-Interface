@@ -15,7 +15,7 @@ export const chainToId = {
 export const name = 'Krystal';
 export const token = null;
 
-export function approvalAddress(chain: string) {
+export function approvalAddress() {
 	return ''; // need to fix
 }
 

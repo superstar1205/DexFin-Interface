@@ -42,7 +42,7 @@ export async function testAdapters(addTest: (test: any) => void) {
 				console.warn(`There's no tokenlist for ${chain}`);
 				return;
 			}
-			const [_maybeNativeToken, token1, token2] = tokenlist;
+			const [token1, token2] = tokenlist;
 			const nativeToken = nativeTokens.find((t) => t.chainId === chainsMap[chain]);
 			const tokenCombinations = [
 				// [from, to]

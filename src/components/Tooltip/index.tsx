@@ -7,7 +7,7 @@ interface ITooltip {
 	content: string | null | React.ReactNode
 	href?: string
 	shallow?: boolean
-	onClick?: (e: any) => any
+	onClick?: () => any
 	style?: {}
 	children: React.ReactNode
 	as?: any

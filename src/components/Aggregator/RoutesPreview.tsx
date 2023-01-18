@@ -1,5 +1,4 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Heading, Link, Text } from '@chakra-ui/react';
+import { Heading, Text } from '@chakra-ui/react';
 import styled from 'styled-components';
 import { AggIcons, SmolCheck } from '../Icons';
 

@@ -11,7 +11,7 @@ th, td {
   }
 `;
 
-export default function Aggregator(props) {
+export default function Aggregator() {
 	const [tests, setTests] = useState([])
 	const addTest = (test) => {tests.push(test); setTests([...tests])}
 	useEffect(() => {
