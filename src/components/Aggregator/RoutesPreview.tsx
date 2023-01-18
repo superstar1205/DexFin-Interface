@@ -1,7 +1,7 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Heading, Link, Text } from '@chakra-ui/react';
 import styled from 'styled-components';
-import { AggIcons, LlamaIcon, SmolCheck } from '../Icons';
+import { AggIcons, SmolCheck } from '../Icons';
 
 const IconsBody = styled.div`
 	display: flex;
@@ -30,7 +30,6 @@ const MainIcon = styled.div`
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	box-shadow: 0px 16.4384px 92.0548px 13.1507px #121315;
 `;
 
 const IconElem = styled.div`
@@ -71,7 +70,7 @@ const RoutesPreview = () => {
 			}}
 		>
 			<Header>
-				<MainIcon>{LlamaIcon}</MainIcon>
+				<MainIcon><img style={{ width: '81px', height: '80px'}} src='/mainicon.png' alt=""/></MainIcon>
 
 				<IconsBody>
 					{[...AggIcons, ...AggIcons].map((Icon, i) => (
@@ -92,11 +91,6 @@ const RoutesPreview = () => {
 				<Text color={'gray.300'} textAlign="center" mt={6}>
 					LlamaSwap looks for the best route for your trade <br /> among a variety of Dex Aggregators, guaranteeing you{' '}
 					<br /> the best execution prices in DeFi.
-					<br /> <br /> Try it now or{' '}
-					<Link href="https://discord.com/invite/j54NuUt5nW" isExternal textDecoration={'underline'}>
-						learn more
-						<ExternalLinkIcon mx="4px" mb="3px" />
-					</Link>
 				</Text>
 			</div>
 		</div>

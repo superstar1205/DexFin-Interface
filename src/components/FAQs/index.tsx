@@ -56,7 +56,7 @@ export default function FaqWrapper() {
 					<h2>
 						<AccordionButton>
 							<Box flex="1" textAlign="left">
-								Will I be eligible for aggregator airdrops if I swap through DefiLlama?
+								Will I be eligible for aggregator airdrops if I swap through DexfinSwap?
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
